@@ -7,4 +7,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
+* initial commit ([6cd9d54](https://github.com/breadhead/with-redux-store/commit/6cd9d54))
+
+
+
+# 1.1.0 (2019-04-18)
+
+
+### Features
+
 * initial commit ([29b8b2b](https://github.com/breadhead/thunk-utils/commit/29b8b2b))
