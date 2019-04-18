@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.1](https://github.com/breadhead/with-redux-store/compare/v1.1.0...v1.1.1) (2019-04-18)
+
+
+### Bug Fixes
+
+* fix tsconfig ([43f63e1](https://github.com/breadhead/with-redux-store/commit/43f63e1))
+
+
+
 # 1.1.0 (2019-04-18)
 
 
