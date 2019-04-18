@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - '8'
+  - '10'
+cache: yarn
+script: yarn ci
+deploy:
+  provider: npm
+  email: uncleseneca@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: GcGAoff8FIfx/l5E7dVQHfS4usBNB2xnNDzjmgcS1plPngZM4XdB2cASZq5rTQ6ugtElr0JzpCjKIOoSMoB4mFpy42XyWpgpgNCG+7OM6G54BWIxp37WxV5j3HhA1N3IoxCn3v6FTW3Gr1pmEEy0upUYb4W9514yeraGL1VreCQ2Oqr7gSvz06+NqZys5FsQoNBMpTimSO+1BpvUhcIxlTWSx24Ll587mibZA3Bpc2szWERuY2IeHJRLL1TxyZt2a9Gsr96WitGS3png3JNNwPK4w08FdyQsEouvePcAGnwPCRi69KcJ1Gv6RPXKkfEtyFQ1AjGXFGfoHlI+lvTycJTQrrCyZU0W+PxEmiZK81ngnpptZ+AV1x6IyoNK0O3EKX+RSgBL42EFv5CiHdTwtGFF3sqLFdbxfe6YCwcsdMsnYwuGO56ng2xS8nRA2fLeZMGIlavVzlrpelSI6QzhT7jXcIGdglrwdce9joVAgPdQVLvIg/qEozHznYX3CA21eRoY/p1M6jPw6jDbbf96+9DLFfqJpz/NnE2VfdrejHTECIYT05+6YxqOGIZD/8tBHbTHs3Hvk3oXM8A4IVQdIZuZPZXBD5bl6uUoUwxAMZfK91K/2RhxTX7ixjuzqHH8OKfijW0JH5LQ3InQPdcXtvnYeXoiN2aLXBbidpadNgE=
+  on:
+    tags: true
+    repo: breadhead/thunk-utils
